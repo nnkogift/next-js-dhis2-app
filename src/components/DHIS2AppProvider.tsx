@@ -15,7 +15,7 @@ const NoSsrAppProvider: ComponentType<any> = dynamic(
 				ssr: false,
 				loading: () => {
 						return (
-								<div className="h-full w-full flex items-center justify-center">
+								<div className="min-h-screen w-full flex items-center justify-center">
 										<CircularLoader/>
 								</div>
 						);
